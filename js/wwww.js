@@ -1,3 +1,0 @@
-exports.wwww = function() {
-
-}

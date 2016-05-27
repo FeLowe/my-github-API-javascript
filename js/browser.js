@@ -1,7 +1,9 @@
-var wwww = require('../js/wwww.js').wwww;
-var yyyy = require('../js/yyyyy.js').yyyy;
-var xxxx = require('../js/xxxxx.js').xxxx;
+var userInfo = require('../js/user.js').user;
 
-$(document).ready(function() {
-
+$(document).ready(function(){
+  $('#user-info').submit(function(event){
+    event.preventDefault();
+    var username = $('#username').val();
+    $('#username').val("");
+  });
 });

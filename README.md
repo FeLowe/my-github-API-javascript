@@ -34,7 +34,7 @@ You will be provided a [list of options](https://dl.dropboxusercontent.com/s/v7m
   * Building and cleaning.
   * Running the development server with live reloading.
   * Running JSHint.
-  * Automatically including Bower dependencies as vendor.min.js and vendor.css.
+  * Automatically including Bower dependencies as *vendor.min.js* and *vendor.css*.
 
 ## Known Bugs
 
@@ -46,7 +46,7 @@ If while setting up your own project based on this one you run into any issues o
 
 ## Technologies Used
 
-javascript, json, gulp, bower, jquery, bootstrap, sass
+javascript, JSON, gulp, bower, jQuery, Bootstrap, sass
 
 ### License
 

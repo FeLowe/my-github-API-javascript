@@ -1,9 +1,13 @@
-var userInfo = require('../js/user.js').user;
+var Repository = require('../js/repository.js').Repository;
 
-$(document).ready(function(){
-  $('#user-info').submit(function(event){
-    event.preventDefault();
-    var username = $('#username').val();
+$(document).ready(function() {
+  var currentRepository = new Repository();
+  $('#github-repo').click(function(){
+    var user = $('#username').val();
     $('#username').val("");
+    console.log(user);
+    var repositories = currentRepository.getRepos(user);
+    console.log(repositories);
+    $('.showRepositories').text('These are the repositories for:' + user + ':' + repositories + '.');
   });
 });

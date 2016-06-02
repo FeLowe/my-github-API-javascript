@@ -16,25 +16,25 @@ To create a token, visit [the Settings area](https://dl.dropboxusercontent.com/s
 
 You will be provided a [list of options](https://dl.dropboxusercontent.com/s/v7myu6qvoka0qtm/Screen%20Shot%202016-03-17%20at%208.11.06%20AM.png?dl=0).**Do not check any of them**. These options grant additional permissions such as writing or deleting repos, and accessing personal information. Select *Generate Token* with no options checked to receive a unique access token.
 
-## Setup/Installation Requirements
+## Setup/Installation Requirements for:
 
-* Place your access token in an *.env* file at the top level of your directory. Include the *.env* file in your  *.gitignore* file.
-* Name your API key variable **exports.apiKey** in your *.env* file and store it in the root of the project directory. Use an API key to complete this project.
+1. **Building this project**
+* Place your access token in an *.env* file at the top level of your directory. Include the *.env* file in your *.gitignore* file.
+* Name your API key variable **exports.apiKey** in your *.env*, its body should look like this *exports.apiKey = “your key here”** file and store it in the root of the project directory. Use an API key to complete this project.
 * For this project you need two JavaScript files: One to receive input from a form, and another to make an API call and display results.
 * As you build your app, make sure to structure your project directory in a logical way, including 2 JavaScript files. One to receive input from a form, and another to make an API call and display results. One of of your files should be a module using **exports**.
 * Include a README and a *.gitignore* file.
 
-* Use all build tools introduced [this week - week 1](https://www.learnhowtoprogram.com/javascript):
-  * Manage front-end dependencies with Bower.
-  * Manage all our other dependencies with npm.
-  * Write an asset pipeline with a live reloading development server in gulp.
-
-* You must also include gulp tasks for:
-  * Concatenation, minification, and running the browserify package on your JavaScript.
-  * Building and cleaning.
-  * Running the development server with live reloading.
-  * Running JSHint.
-  * Automatically including Bower dependencies as *vendor.min.js* and *vendor.css*.
+2. **cloning this project**
+* clone repo
+* create a *.env** following directions above
+* npm install
+* bower install
+* install globals if needed (gulp and bower packages.)
+* npm install gulp -g
+* npm install bower -g
+* gulp build
+* gulp serve
 
 ## Known Bugs
 

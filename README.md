@@ -18,14 +18,14 @@ You will be provided a [list of options](https://dl.dropboxusercontent.com/s/v7m
 
 ## Setup/Installation Requirements for:
 
-1. **Building this project**
+####Building this project####
 * Place your access token in an *.env* file at the top level of your directory. Include the *.env* file in your *.gitignore* file.
 * Name your API key variable **exports.apiKey** in your *.env*, its body should look like this *exports.apiKey = “your key here”** file and store it in the root of the project directory. Use an API key to complete this project.
 * For this project you need two JavaScript files: One to receive input from a form, and another to make an API call and display results.
 * As you build your app, make sure to structure your project directory in a logical way, including 2 JavaScript files. One to receive input from a form, and another to make an API call and display results. One of of your files should be a module using **exports**.
 * Include a README and a *.gitignore* file.
 
-2. **cloning this project**
+####Cloning this project####
 * clone repo
 * create a *.env** following directions above
 * npm install
